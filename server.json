@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.axiomatic-ai/prover",
+  "description": "Lean 4 MCP server — compile code, prove theorems, plan and execute formalizations with full Mathlib support.",
+  "repository": {
+    "url": "https://github.com/Axiomatic-AI/ax-prover-base-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://prover.axiomatic-ai.com/mcp/"
+    }
+  ]
+}
