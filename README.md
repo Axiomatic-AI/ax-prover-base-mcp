@@ -1,6 +1,6 @@
 # Axiomatic Prover — MCP Server
 
-Lean 4 MCP server — compile code, prove theorems, plan and execute formalizations with full Mathlib support.
+Lean 4 MCP server: compile, prove theorems, and formalize math with Mathlib.
 
 ## Connect
 
