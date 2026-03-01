@@ -1,6 +1,6 @@
 # Axiomatic Prover — MCP Server
 
-Lean 4 MCP server: compile, prove theorems, and formalize math with Mathlib.
+Lean 4 MCP server: compile and prove theorems with Mathlib.
 
 ## Connect
 
@@ -26,8 +26,6 @@ Authentication uses OAuth 2.1 via GitHub — your MCP client handles the flow au
 | Tool | Description |
 |------|-------------|
 | **`lean4_build`** | Compile Lean 4 source code in a Mathlib-enabled sandbox. Code is sent to external cloud services for compilation; if proving, also for AI processing. |
-| **`lean4_formalization_planner`** | Analyze mathematical text and produce a structured formalization plan. Content is sent to external cloud services for AI analysis. |
-| **`lean4_formalize_item`** | Convert items from a formalization plan into compilable Lean 4 code. Content is sent to external cloud services for AI code generation. |
 | **`lean4_prove_theorems`** | Automatically prove Lean 4 theorems that contain `sorry`. Code is sent to external cloud services for compilation and AI proving. |
 
 ### Poll
